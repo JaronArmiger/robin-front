@@ -1,6 +1,9 @@
-console.log('bootstrap billiam');
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-const btn = document.querySelector('button');
-btn.addEventListener('click', function() {
-  console.log('fuck you');
-});
+const title = 'Baguette Store';
+
+ReactDOM.render(
+  <div>{title}</div>,
+  document.getElementById('app')
+);
