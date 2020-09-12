@@ -1,9 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const title = 'Baguette Store';
+import App from './App';
+
+const title = 'Baguette Stsavffvore';
 
 ReactDOM.render(
-  <div>{title}</div>,
+  <App title={title} />,
   document.getElementById('app')
 );
+
+module.hot.accept();
